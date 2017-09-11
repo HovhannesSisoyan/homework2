@@ -1,0 +1,10 @@
+const gradeFromHomeworks = 100;
+const gradeFromMidterms = 100;
+let gradeFromFinal = 100;
+let courseID = "CS110";
+let courseName = "Intro to Computer Science";
+let instructorName = "Ruben";
+let instructorSurname = "Meschyan";
+console.log(courseID + "  " + courseName);
+console.log("instructor: "+(instructorName + "  " + instructorSurname));
+console.log("FinalGrade="+((10*gradeFromHomeworks)/100+(40*gradeFromMidterms)/100+(50*gradeFromFinal)/100));
